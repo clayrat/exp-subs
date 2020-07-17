@@ -1,0 +1,30 @@
+package expsubs
+
+sourcedir = src
+
+modules = Elem
+        , Iter
+
+        , Defun
+        , LF
+        , Multi
+        , KSigLift
+
+        , STLC.Ty
+        , STLC.Term
+
+        , LamUps.Untyped
+        , LamUps.BTree
+        , LamUps.Typed
+        , LamUps.Umach
+
+        , LamSig.Untyped
+        , LamSig.Scoped
+        , LamSig.Typed
+        , LamSig.Machine
+
+        , LamSig.Minimal.Term
+        , LamSig.Minimal.KAM
+        , LamSig.Minimal.KN
+
+opts = "-p contrib"
