@@ -1,4 +1,4 @@
-i# Explicit substitutions
+# Explicit substitutions
 
 ## References
 
